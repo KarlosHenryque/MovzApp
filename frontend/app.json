@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "MovzApp",
+    "slug": "MovzApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "movzapp",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-splash-screen"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
